@@ -10,11 +10,15 @@
 </script>
 
 <script>
+	import bg from '../assets/glitch.gif';
 	export let error;
 	export let status;
 </script>
 
-<main class="error_page absolute top-0 left-0 z-[11] h-[100vh] w-[100vw] opacity-20" />
+<main
+	style={`background: url(${bg});background-size: cover;background-position: center;`}
+	class="absolute top-0 left-0 z-[11] h-[100vh] w-[100vw] opacity-20"
+/>
 <div class="relative z-[12]">
 	<div class="flex justify-start flex-wrap items-end -mt-20 font-heading font-bold text-5xl">
 		<span class="mr-5">404</span> <span class="text-2xl">{error.message}</span>
@@ -28,11 +32,3 @@
 		<span class="mr-2">&#8592;</span> Go back</button
 	>
 </div>
-
-<style>
-	.error_page {
-		background: url('glitch.gif');
-		background-size: cover;
-		background-position: center;
-	}
-</style>
