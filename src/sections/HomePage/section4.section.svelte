@@ -6,12 +6,12 @@
 	<header class="text-2xl mb-6">
 		<span class="font-semibold font-body text-green-600">I can work with </span>
 	</header>
-	<div class="flex font-body mb-10 space-x-8">
-		<img class="w-16 rounded-md" src="javascript.png" alt="javascript" />
-		<img class="w-16 rounded-md" src="typescript.png" alt="typescript" />
-		<img class="w-16 rounded-md" src="react.png" alt="reactjs" />
-		<img class="w-16 rounded-md" src="next.svg" alt="nextjs" />
-		<img class="w-16 rounded-md" src="svelte.png" alt="svelte" />
+	<div class="flex flex-wrap font-body mb-4">
+		<img class="w-16 rounded-md mr-6 mb-6" src="javascript.png" alt="javascript" />
+		<img class="w-16 rounded-md mr-6 mb-6" src="typescript.png" alt="typescript" />
+		<img class="w-16 rounded-md mr-6 mb-6" src="react.png" alt="reactjs" />
+		<img class="w-16 rounded-md mr-6 mb-6" src="next.svg" alt="nextjs" />
+		<img class="w-16 rounded-md mr-6 mb-6" src="svelte.png" alt="svelte" />
 	</div>
 
 	<hr />

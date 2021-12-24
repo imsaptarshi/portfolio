@@ -16,7 +16,7 @@
 </script>
 
 <nav
-	class="bg-white fixed top-0 w-full flex justify-between px-10 py-3 border-b-[1px] items-center"
+	class="bg-white fixed top-0 w-full flex justify-between px-6 md:px-10 py-3 border-b-[1px] items-center"
 >
 	<header class="font-heading font-normal text-lg">
 		<span class="font-bold">{initial}ap</span>tarsh{last} 🧑‍💻
