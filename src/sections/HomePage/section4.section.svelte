@@ -4,7 +4,7 @@
 
 <section class="mb-8">
 	<header class="text-2xl mb-6">
-		<span class="font-semibold font-body text-green-600">I can work with </span>
+		<span class="font-semibold font-body text-green-600">I'm skilled at </span>
 	</header>
 	<div class="flex flex-wrap font-body mb-4">
 		<img class="w-16 rounded-md mr-6 mb-6" src="javascript.png" alt="javascript" />
