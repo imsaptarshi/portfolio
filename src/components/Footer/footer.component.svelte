@@ -1,6 +1,6 @@
-<div class="w-full font-heading">
+<div class="absolute bottom-0 w-full font-heading">
 	<hr class="w-full" />
-	<footer class="flex md:justify-between w-full px-4 md:px-10 py-5 items-center">
+	<footer class="relative z-10 flex md:justify-between w-full px-6 md:px-10 py-5 items-center">
 		<div />
 		<div class="flex flex-wrap items-center">
 			<div class="text-[14px] font-medium mr-6 text-gray-500">
