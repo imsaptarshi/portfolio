@@ -16,7 +16,7 @@
 	</header>
 	<div class="flex flex-wrap w-full justify-center">
 		{#each config.projects as project}
-			<div class="mr-2 mb-2">
+			<div class="mr-3 mb-3">
 				<Project {project} />
 			</div>
 		{/each}

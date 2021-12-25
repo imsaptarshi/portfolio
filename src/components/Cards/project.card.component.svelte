@@ -3,9 +3,9 @@
 </script>
 
 <a href={project.link} target="_blank">
-	<article class="project text-brand-black flex flex-col p-2 space-y-4  max-w-[440px]">
+	<article class="project text-brand-black flex flex-col p-2 space-y-3  max-w-[440px]">
 		<div
-			class="project_holder -mx-6 -mr-8 md:-mx-0 relative overflow-hidden rounded-lg duration-200 border-[1px]"
+			class="project_holder -mx-6 -mr-8 md:-mx-0 relative overflow-hidden rounded-lg duration-200"
 		>
 			<div
 				style="background-image:url({project.image});background-size:cover;background-position:center"
