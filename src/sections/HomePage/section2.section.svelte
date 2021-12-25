@@ -1,4 +1,6 @@
 <script lang="ts">
+	import config from '$lib/config';
+
 	import Link from '../../components/Misc/link.component.svelte';
 </script>
 
@@ -11,6 +13,6 @@
 		I am interested in deep tech, debates, and anime.
 	</div>
 	<div>Reach out on:</div>
-	<div class="mb-10">&#8594;<Link href="https://twitter.com/imsaptarshiii">Twitter</Link></div>
+	<div class="mb-10">&#8594;<Link href={config.twitter}>Twitter</Link></div>
 	<hr />
 </section>

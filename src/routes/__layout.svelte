@@ -2,10 +2,28 @@
 	import Footer from '../components/Footer/footer.component.svelte';
 	import '../app.css';
 	import Navigation from '../components/Navigation/navigation.component.svelte';
+	import config from '$lib/config';
+	let gaTag = config.gaTag;
 </script>
 
+<svelte:head>
+	<script async src={`https://www.googletagmanager.com/gtag/js?id=${gaTag}`}></script>
+	<script lang="ts" type="module">
+		import config from './src/lib/config';
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+		gtag('config', `${config.gaTag}`, {
+			page_path: window.location.pathname
+		});
+	</script>
+</svelte:head>
+
 <main
-	class="relative flex flex-col min-h-[100vh] items-center px-6 lg:px-0 justify-center w-full text-brand-black"
+	class=" overflow-x-hidden relative flex flex-col min-h-[100vh] items-center px-6 lg:px-0 w-full text-brand-black"
 >
 	<Navigation />
 
