@@ -16,7 +16,7 @@
 		}
 
 		gtag('js', new Date());
-		gtag('config', `${config.gaTag}`, {
+		gtag('config', `G-HSXL2HTLLT`, {
 			page_path: window.location.pathname
 		});
 	</script>
