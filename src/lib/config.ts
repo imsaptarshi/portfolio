@@ -12,7 +12,7 @@ export default {
             description: "Making communities more engaging with events, community analytics and newsletters with Relm.",
             image: "/relm.png",
             link: "https://relm.tech",
-            status: ["BETA", "RESUMED"]
+            status: ["BETA", "PAUSED"]
         },
         {
             title: "Basch - AI Video Creator",

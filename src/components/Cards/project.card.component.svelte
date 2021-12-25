@@ -16,7 +16,7 @@
 			{#each project.status as status}
 				<div
 					class={`mr-2 mb-2 px-3 cursor-pointer py-0.5 pt-1 rounded-full text-[10px] font-heading font-semibold ${
-						status === 'RESUMED' ? 'bg-yellow-400' : 'bg-green-600'
+						status === 'PAUSED' ? 'bg-yellow-400' : 'bg-green-600'
 					} text-white`}
 				>
 					{status}
