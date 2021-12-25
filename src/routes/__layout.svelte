@@ -9,7 +9,6 @@
 <svelte:head>
 	<script async src={`https://www.googletagmanager.com/gtag/js?id=${gaTag}`}></script>
 	<script lang="ts" type="module">
-		import config from './src/lib/config';
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
 			dataLayer.push(arguments);
