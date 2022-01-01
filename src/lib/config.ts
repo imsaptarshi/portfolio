@@ -27,5 +27,11 @@ export default {
             image: "/basch.png",
             link: "https://basch.io",
             status: ["BETA", "⚒️ IN PROGRESS"]
+        }, {
+            title: "Be a Better UI/UX Designer in 2021",
+            description: "Hey, designers out there! I'm Saptarshi (a bit hard to pronounce, I know), today I'm gonna help with some effective tips & tricks on how to be a Better UI/UX Designer ...",
+            image: "/uiux.jpg",
+            link: "https://saptarshi-blog.hashnode.dev/be-a-better-uiux-designer-in-2021",
+            status: ["BLOG", "UI/UX"]
         }]
 }

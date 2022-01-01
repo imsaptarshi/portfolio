@@ -7,6 +7,10 @@
 	import Section5 from '../sections/HomePage/section5.section.svelte';
 </script>
 
+<svelte:head>
+	<title>Saptarshi Basu 🧑‍💻</title>
+</svelte:head>
+
 <main class="w-full">
 	<Section1 />
 	<Section2 />
