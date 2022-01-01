@@ -14,12 +14,18 @@ export default {
             link: "https://relm.tech",
             status: ["BETA", "PAUSED"]
         },
+
         {
+            title: "Design Junction - One-stop resource library for Designers and Creatives",
+            description: "Design Junction is a one-stop resource library for Designers and Creatives with curated list of best resources handpicked from around the web.",
+            image: "/designjunction.png",
+            link: "https://designjunction.xyz",
+            status: ["COMPLETED", "#3 PRODUCT OF THE DAY"]
+        }, {
             title: "Basch - AI Video Creator",
             description: "With Basch’s advanced AI Engine create professional videos with no effort, without any skills and within 2 minutes.",
             image: "/basch.png",
             link: "https://basch.io",
             status: ["BETA", "⚒️ IN PROGRESS"]
-        }
-    ]
+        }]
 }

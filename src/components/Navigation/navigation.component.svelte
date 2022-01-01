@@ -27,7 +27,11 @@
 	<div
 		class="flex space-x-4 text-sm items-center font-medium hover:text-gray-200 duration-100 font-heading text-green-600"
 	>
-		<a href="#" class="duration-100 hover:text-green-600">Blog</a>
+		<a
+			target="_blank"
+			href="https://longhaired-dance-79a.notion.site/My-Mood-Board-89202fa0988445528070812f9ddec38b"
+			class="duration-100 hover:text-green-600">Resources</a
+		>
 		<a href="/projects" class="duration-100 hover:text-green-600">Projects</a>
 	</div>
 </nav>

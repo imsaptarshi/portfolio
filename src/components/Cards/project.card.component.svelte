@@ -5,7 +5,7 @@
 <a href={project.link} target="_blank">
 	<article class="project text-brand-black flex flex-col p-2 space-y-3  max-w-[440px]">
 		<div
-			class="project_holder -mx-7 -mr-10 md:-mx-0 relative overflow-hidden rounded-lg duration-200"
+			class="project_holder relative -ml-5 -mr-10 md:-mx-0 overflow-hidden md:rounded-lg duration-200"
 		>
 			<div
 				style="background-image:url({project.image});background-size:cover;background-position:center"

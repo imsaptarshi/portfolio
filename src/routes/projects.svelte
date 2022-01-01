@@ -8,15 +8,15 @@
 </svelte:head>
 
 <main class="-mx-3 lg:-mx-40 mb-40">
-	<header class="text-center -mt-4 mb-10 text-3xl ">
-		<span class="font-heading font-bold">Welcome to my Showcase</span> <span class="ml-2" />
-		<div class="text-sm text-gray-400 font-body">
+	<header class="text-center -mt-4 mb-10 text-xl md:text-3xl">
+		<span class="font-heading font-bold">Welcome to my Showcase</span>
+		<div class="text-xs px-10 md:px-0 md:text-sm text-gray-400 font-body">
 			Here I, showcase some of my most favourite projects/products I've built ✨
 		</div>
 	</header>
 	<div class="flex flex-wrap w-full justify-center">
 		{#each config.projects as project}
-			<div class="mr-3 mb-3">
+			<div class="mr-4 mb-6">
 				<Project {project} />
 			</div>
 		{/each}
